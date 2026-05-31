@@ -74,7 +74,7 @@ function StudentDashboard() {
 
     fetchTracking();
 
-  }, []);
+  }, [fetchCourses,fetchTracking]);
 
 
   // =====================================
