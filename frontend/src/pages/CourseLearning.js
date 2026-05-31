@@ -52,7 +52,7 @@ function CourseLearning() {
 
     fetchLevels();
 
-  }, [course_id]);
+  }, [course_id,fetchLevels]);
 
 
   // ======================================
